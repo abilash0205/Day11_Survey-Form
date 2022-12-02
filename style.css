@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('high-angle-multiple-election-questionnaires_23-2148265537.webp');
+    backdrop-filter: blur(13px);
+}
+
+.full-form{
+    text-align: center;
+    max-width: 550px;
+    height: 800px;
+    margin: 0px auto;
+    font-size: 17px;
+}
+
+.form{
+    border: 1px solid aquamarine;
+    background-color: rgb(0,0,0,0.3);
+    width: 500px;
+    margin: 0px auto;
+    text-align: left;
+    padding: 5px;
+}
+
+select, input[type="text"], input[type="email"], input[type="number"], textarea{
+    width: 490px;
+}
+
+button{
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width:600px){
+    .full-form{
+        width: 300px;
+        font-size: 15px;
+    }
+    .form{
+        width: 280px;
+    }
+    button{
+        font-size: 12px;
+    }
+    select, input[type="text"], input[type="email"], input[type="number"], textarea{
+        width: 270px;
+    }
+}
